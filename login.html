@@ -1,0 +1,31 @@
+<html>
+<head>
+<script language='JavaScript'>
+var txt=" SQL Server Forum ";
+var kecepatan=100;var segarkan=null;function bergerak() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
+</script>
+<link rel="stylesheet" href="login.css"/>
+
+</head>
+<body>
+
+<div id='heading'><img src="cc.png" class='logo' />SQL SERVER FORUM <class='logo'/></div>
+<div id="main"></div>
+   
+  <form class="form" action="/action_page.php">
+	
+	<div class="label">Email<input class="input" type="text" placeholder="Enter Email" name="mail" required></div>
+	  <br>
+	<div class="label">Password<input class="input" type="password" placeholder="Enter Password" name="psw" required></div>
+	<br>
+	<input type="submit" name="login" value="Login"/> 
+	        <input type="checkbox"><b> Remember me </b>
+
+	<div class="psw"><a href="lupa.html">Lupa password?	</a>
+					 <span class="daftar"><a href="Pendaftaran.html">Daftar</a></span></div>
+
+  </form>
+</body>
+  </html>

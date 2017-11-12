@@ -1,0 +1,69 @@
+body{
+background:url(krem.jpg) no-repeat center;
+background-size:100% 100%;
+color:black;
+font-family:Andalus;
+
+}
+#header{
+border:5px solid #fff;
+margin:auto;
+width:1000%;
+height:900px;
+padding:10px;
+padding-top:2px;
+font-size:20px;
+color:white
+}
+
+nav{
+	margin-top : 200px;
+	text-align : justify
+	width : 80%;
+}
+nav ul ul{
+	display : none;
+}
+
+nav ul li : hover > ul {
+	display : block;
+	width:100px;
+}
+.logo{
+width:50px;
+height:50px;
+padding-top:5px;
+}
+#main{
+border:2px solid #fff;
+margin:10px auto;
+padding:10px;	
+}
+
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+

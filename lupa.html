@@ -1,0 +1,47 @@
+<html>
+<head>
+<script language='JavaScript'>
+var txt=" SQL Server Forum ";
+var kecepatan=100;var segarkan=null;function bergerak() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
+</script>
+<link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+<div id='heading'><img src="cc.png" class='logo' />SQL SERVER FORUM <class='logo'/>
+</div>
+<div id="main"
+<tr> <table border="0" align="center" height="400"  cellpadding="10">
+   <td></td></tr>
+   
+  <form class="modal-content animate" action="/action_page.php">
+	
+   	<tr>
+	<td width="95" height="32"><div class="container"><label><b>Email</b></label>
+	  <td><label>:
+      <input type="text" placeholder="Enter Email" name="mail" required>
+	  </label></td>
+    </tr>
+	
+	<tr>
+	<td width="95" height="32"><div class="container"><label><b>Nomor Handphone</b></label>
+	  <td><label>:
+      <input type="text" placeholder="Masukkan No Handphone" name="hp" required>
+	  </label></td>
+    </tr>
+	
+	<tr>
+	<td width="95" height="32">
+	<div class="container"><label><b>Password Baru</b></label>
+	  <td><label>:
+      <input type="password" placeholder="Masukkan Password Baru" name="psw" required>
+	  </label></td>
+    </tr>
+
+	<tr><td align="center" colspan="4">
+  <input type="submit" value=" Daftar ">
+  <input type="reset" value=" Batal "></td></tr>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+background:url(krem.jpg) no-repeat center;
+background-size:cover;
+color:black;
+}
+#heading{
+border:2px solid #fff;
+border-radius:10px;
+width:50%;
+font:50px Cooper Std Black;
+color:black;
+line-height:50px;
+margin:auto;
+}
+#main{
+border:2px solid #fff;
+border-radius:10px;
+margin:5px auto;
+width:50%;
+height:100%;
+font-size:14px;
+font-family:Calibri;
+text-align:center;
+
+}
+.label{
+	text-align:left;
+	margin-left:40%;
+}
+.form{
+	margin-top:-45%;
+}
+.logo{
+width:50px;
+height:50px;
+padding-top:5px;
+}
+
+input[type=text],
+input[type=password]{
+	border-radius:5px;
+	padding:8px 12px;
+	margin-top : 25px;
+}
+input[type=submit] {
+	margin-left : 44%;
+	margin-top: 40px;
+	text-align:center;
+}
+.psw{
+	text-align:center;
+	margin-top:30px;
+}
+.daftar{
+	margin-left : 20px;
+}
+.input {
+	margin-left : 30px;
+}
+gambar{
+	padding:40px;
+	margin:75px;
+	
+}
